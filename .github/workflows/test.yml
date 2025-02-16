@@ -28,7 +28,7 @@ jobs:
       - name: Setup Deno
         uses: denoland/setup-deno@v2
         with:
-          deno-version: v1.39.2 # @denopendabot denoland/deno
+          deno-version: v2.1.10 # @denopendabot denoland/deno
 
       - name: Format
         run: deno fmt --check
